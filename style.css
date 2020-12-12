@@ -7,12 +7,28 @@ body{
     background: #E5E5E5;
     font-family: 'Roboto', sans-serif;
 }
+a{
+    color: #000;
+    text-decoration: none;
+}
+.container{
+    width: 1528px;
+    margin: 0 auto;
+}
+header{
+    padding-top: 40px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 h1{
+    display: ;
     position: relative;
     font-family: 'PT Serif', serif;
     font-size: 24px;
     font-weight: 700;
-    float: left;
 }
 h1::before{
     display: inline-block;
@@ -36,17 +52,17 @@ h1::after{
     filter: opacity(90%);
 }
 nav{
-    float: right;
+    width: 30%;
     font-size: 18px;
 }
 ul{
+    display: flex;
     list-style: none;
+    justify-content: space-between;
 }
-nav li{
-    display: inline-block;
-    
+nav a:hover{
+    text-decoration: underline;
 }
-.container{
-    width: 1528px;
-    margin: 0 auto;
+section{
+    padding: 40px 0;
 }
